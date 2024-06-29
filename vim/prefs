@@ -1,0 +1,4 @@
+set number
+set relativenumber
+map <C-d> <C-d>zz
+map <C-u> <C-u>zz
