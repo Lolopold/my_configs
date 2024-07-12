@@ -1,5 +1,7 @@
 call plug#begin()
 
 Plug 'vim-airline/vim-airline'
+Plug 'altercation/vim-colors-solarized'
+Plug 'plasticboy/vim-markdown'
 
 call plug#end()
