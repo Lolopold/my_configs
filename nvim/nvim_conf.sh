@@ -16,7 +16,7 @@ wget https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
 ./nvim.appimage --appimage-extract
 ## Download and install latest version of packer
-rm ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+rm -fr ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ## remove prior neovim configurations
 if [[ "$chad" = "y" ]]; then
