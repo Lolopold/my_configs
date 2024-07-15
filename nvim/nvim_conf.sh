@@ -36,6 +36,5 @@ sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 # Insert wanted configurations for neovim installation here #
 #                                                           #
 #############################################################
-
-
-cat further_configs >> ~/.config/nvim/init.lua
+mkdir -p ~/.config/nvim/lua/len_configs
+cp -r nvim ~/.config/
